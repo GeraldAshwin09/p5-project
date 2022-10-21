@@ -1,0 +1,23 @@
+canvas
+{
+    border-color: black;
+    border-style: ridge;
+    border:1px;
+}
+#bg
+{
+    background-color: darkcyan;
+}
+
+canvas
+{
+    animation-name:example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example
+{
+    from{box-shadow:1px 1px 50px purple;}
+    to{box-shadow:1px 1px 50px greenyellow;}
+
+}
